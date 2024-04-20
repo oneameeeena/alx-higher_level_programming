@@ -2,14 +2,15 @@
 
 def append_write(filename="", text=""):
     """
-    Append a string to a UTF-8 encoded text file.
+    Appends a string at the end of a text file (UTF8) and returns the number of characters added.
 
     Args:
-        filename (str): The name of the file to append to.
+        filename (str): The name of the file to append to. If the file doesn't exist, it will be created.
         text (str): The text to append to the file.
-    
+
     Returns:
-        int: The number of characters added.
+        int: The number of characters added to the file.
     """
     with open(filename, "a", encoding="utf-8") as file:
-        return file.write(text)
+        nb_characters_added = file.write(text)
+    return nb_characters_added
