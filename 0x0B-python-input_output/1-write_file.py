@@ -2,7 +2,6 @@
 """Define function write_file"""
 
 
-
 def write_file(filename="", text=""):
     """
     Write a string to a UTF-8 encoded text file.
