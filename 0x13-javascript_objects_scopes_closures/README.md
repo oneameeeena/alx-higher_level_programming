@@ -1,0 +1,1 @@
+This project focuses on JavaScript concepts related to objects, scopes, and closures. It aims to provide a deep understanding of how JavaScript manages object properties, variable scopes, and closures, which are essential for writing efficient and maintainable code.
