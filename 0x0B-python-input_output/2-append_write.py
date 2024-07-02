@@ -1,16 +1,19 @@
 #!/usr/bin/python3
+"""
+This program can append text in a file,
+create the file if doesn't exists
+"""
+
 
 def append_write(filename="", text=""):
     """
-    Append a string to a UTF-8 encoded text file.
-
+    Append text to the end of file, and created if doesn't exists.
     Args:
-        filename (str): The name of the file to append to.
-        text (str): The text to append to the file.
-    
-    Returns:
-        int: The number of characters added.
+      - filename: string
+      - text: string
     """
-    with open(filename, "a", encoding="utf-8") as file:
-        return file.write(text)
 
+    with open(filename, mode="a", encoding="utf-8") as _file:
+        _file.write(text)
+
+    return (len(text))

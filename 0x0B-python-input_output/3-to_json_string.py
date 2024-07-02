@@ -1,17 +1,17 @@
 #!/usr/bin/python3
-
+"""
+This program converts dictionaries to JSON
+"""
 
 
 import json
 
+
 def to_json_string(my_obj):
     """
-    Returns the JSON representation of an object (string).
-
+    Convert a dict to JSON format
     Args:
-        my_obj (object): The object to be serialized to JSON.
-
-    Returns:
-        str: The JSON representation of the object.
+     - my_obj: dict
     """
-    return json.dumps(my_obj)
+
+    return (json.dumps(my_obj))
