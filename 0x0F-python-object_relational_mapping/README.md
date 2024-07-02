@@ -1,0 +1,1 @@
+ In the context of software development, Object-Relational Mapping (ORM) is a technique used to convert data between incompatible type systems using object-oriented programming languages. In this project, we focus on using Python's ORM capabilities to interact with relational databases, such as MySQL. 
