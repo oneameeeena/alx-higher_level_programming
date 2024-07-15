@@ -1,0 +1,1 @@
+The 0x11-python-network_1 project is designed to introduce students to network programming in Python, building on foundational concepts and extending into practical applications. The main focus is on understanding how to interact with web servers, manipulate URLs, handle HTTP requests and responses, and work with APIs.
